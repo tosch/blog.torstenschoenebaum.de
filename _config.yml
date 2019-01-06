@@ -13,22 +13,77 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: tosch's blog
+name: Torsten Schönebaum
+email: torsten.schoenebaum+blog@gmail.com
+locale: en-GB
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  This is my personal blog. Opinions are entirely my own.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://blog.torstenschoenebaum.de" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: radlepunktde
+facebook:
+  username: "torsten.schoenebaum"
+github:
+  username: tosch
+social:
+  type: Person
+  links:
+    - "https://twitter.com/radlepunktde"
+    - "https://facebook.com/torsten.schoenebaum"
+    - "https://instagram.com/tosch_rastede"
+    - "https://www.linkedin.com/in/torstenschoenebaum"
+author:
+  name: "Torsten Schönebaum"
+  avatar: "/assets/images/tosch.jpg"
+  bio: >-
+    I'm a software developer working for Sage Business Cloud Accounting. My favourite programming language is Ruby :-)
+  location: "Rastede, Germany"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/radlepunktde"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tosch"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/torstenschoenebaum"
+    - label: "Xing"
+      icon: "fab fa-fw fa-xing"
+      url: "https://www.xing.com/profile/Torsten_Schoenebaum"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/torsten.schoenebaum"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/tosch_rastede"
+
+show_downloads: false
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: jekyll-theme-slate
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+
+minimal_mistakes_skin: air
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
