@@ -207,15 +207,6 @@ GEM
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minimal-mistakes-jekyll (4.14.1)
-      jekyll (~> 3.7)
-      jekyll-data (~> 1.0)
-      jekyll-feed (~> 0.10)
-      jekyll-gist (~> 1.5)
-      jekyll-include-cache (~> 0.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.2)
-      jemoji (~> 0.10)
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.8.5)
@@ -256,8 +247,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-data
   jekyll-feed (~> 0.6)
-  minimal-mistakes-jekyll
+  jekyll-include-cache
   tzinfo-data
 
 BUNDLED WITH
