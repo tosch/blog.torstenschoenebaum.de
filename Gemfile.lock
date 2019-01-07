@@ -112,8 +112,6 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1)
       rouge (~> 2)
-    jekyll-data (1.0.0)
-      jekyll (~> 3.3)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.11.0)
@@ -247,7 +245,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-data
   jekyll-feed (~> 0.6)
   jekyll-include-cache
   tzinfo-data

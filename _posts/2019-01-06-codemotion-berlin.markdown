@@ -1,10 +1,11 @@
 ---
-layout: single
 title:  "Highlights @ CodeMotion Berlin 2018"
 date:   2019-01-06 20:00:00 +0100
 categories: conferences
 header:
   image: /assets/images/posts/2019/01/codemotion.jpg
+  teaser: /assets/images/posts/2019/01/codemotion_logo.png
+toc: true
 ---
 In November 2018, I attended to the CodeMotion software developer conference in Berlin. The CodeMotion is a multi-track
 conference, covering a wide range of topics. Obviously, I was only able to see a small and very personal selection of
